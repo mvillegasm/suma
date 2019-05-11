@@ -1,5 +1,4 @@
-p "Ingrese un número"
-numero = gets.to_i
+numero = ARGV[0].to_i
 i = 0
 suma = 0
 while i<numero
